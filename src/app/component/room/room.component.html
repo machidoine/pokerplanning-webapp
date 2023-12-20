@@ -1,0 +1,8 @@
+<div *ngIf="playerName;else empty">
+  <hud [room]="room"/>
+  <table [room]="room"></table>
+</div>
+
+<ng-template #empty>
+</ng-template>
+
